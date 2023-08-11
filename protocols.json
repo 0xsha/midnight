@@ -1,0 +1,7 @@
+[
+	{
+		"network": "0x89",
+		"address": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+		"sig": "FlashLoan(address,address,address,uint256,uint8,uint256,uint16)"
+	}
+]
