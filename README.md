@@ -5,7 +5,7 @@
 # Motivation 
 The PoC made to prove the concept of real-time flash loan monitoring. which introduced in the paper "Midnight: An Efficient Event-driven EVM Transaction Security Monitoring Approach For Flash Loan Detection."
 the emphasis of this PoC is to have easy to use interface plus use ```eth_subscribe``` rather than polling also decode events and making them locally queryable via PostgresSQL. this should allow researchers to easily generate cleaned dataset with 
-fraction of cost of runnning an archive or for node. the inital paper was authored a long ago but as publication takes time we didn't publish code to follow the publication process. so many ideas never made it to code base. like round robin the providers to avoid rate limiting even further also as of now better tooling and libs as of now support ```eth_subscribe`` [web3.py](https://web3py.readthedocs.io/en/stable/releases.html#web3-py-v6-7-0-2023-07-26) and [viem also](https://viem.sh/docs/actions/public/watchBlockNumber.html#json-rpc-methods). whch makes those lib better bet for production grade code.
+fraction of cost of runnning an archive or for node. the inital paper was authored a long ago but as publication takes time we didn't publish code to follow the publication process. so many ideas never made it to code base. like round robin the providers to avoid rate limiting even further also as of now better tooling and libs as of now support ```eth_subscribe``` [web3.py](https://web3py.readthedocs.io/en/stable/releases.html#web3-py-v6-7-0-2023-07-26) and [viem also](https://viem.sh/docs/actions/public/watchBlockNumber.html#json-rpc-methods). whch makes those lib better bet for production grade code.
 
 
 
